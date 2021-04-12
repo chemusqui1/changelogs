@@ -1,0 +1,18 @@
+ReBorn Kernel Changelog
+===========================================>
+
+*10/04/2021 (Initial Public Release)
+------------------------------------------->
+- Based on phoenix-r-oss kernel source
+- Latest CAF tag merged
+- Latest 4.14 kernel-common merged
+- Latest F2FS patches merged
+- Added some patches from UPSTREAM
+- Added some backported patches
+- Added requiered patches for SafteyNet
+- Enabled PELT and added requiered patches
+- Scheduler improvements
+- Battery life improvements
+- Performance improvements
+- Disabled a lot of debugging
+- And much more

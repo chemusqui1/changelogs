@@ -1,0 +1,23 @@
+EvolutionX Changelog
+===========================================>
+
+*11/04/2021
+------------------------------------------->
+[FIX] Authentication now working with FOD/Face Unlock
+[FIX] Battery indicator on Settings->Battery page
+[FIX] Scroll when made shortly
+[FIX] OK Google detection (A Google App update will be needed)
+[FIX] Added fallback to some devices with Wi-Fi MAC issues
+[FIX] Google Play System Updates (AKA Updatable APEXes)
+[OPTIMIZATION] Various FOD improvements
+[OPTIMIZATION] Changed default governor to Conservative
+[OPTIMIZATION] Disabled some abusive logspams
+[OPTIMIZATION] Face Unlock now only usable when swiping up on lock screen (We avoid some lags unlocking)
+
+
+*10/04/2021 (Initial public testing release)
+------------------------------------------->
+[NEW] MiuiCamera port from Official-Ayrton990 (thx for your huge work)
+[NEW] Now built with OSS Kernel and Vendor (ReBorn Kernel)
+[NEW] Used 21.4.1 vendor blobs and CodeAurora ones
+
