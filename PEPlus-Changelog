@@ -1,0 +1,37 @@
+Changes between PE and PE+:
+- Support for LiveDisplay, that means... Hello, HBM and DC Dimming!
+- Stability and performance improvements
+
+Changelog:
+27/06/2021 [Initial PE+ public release]
+- ReBorn Kernel 0.93 (Believe in what you see)
+  - Kernel upstreamed to 4.14.237.
+  - CAF upstream to LA.UM.9.1.r1-10500-SMxxx0.QSSI12.0 tag.
+  - Added Zen I/O sched.
+  - Switched to UCLAMP.
+  - Using Simple LMK instead of Android stock LMK.
+  - Added Fsync toggle.
+  - Added Adreno Boost.
+  - Boeffla Wakelock Blocker inbuilt (Tweaked for making his magic work without interaction).
+  - KCAL Color Control added.
+  - Removed a lot of Xiaomi stuff not needed.
+  - Added File Blocker, to prevent some toxic modules mess around.
+  - Scheduler improvements.
+  - Patched a lot of VLAs on kernel
+  - Patched some camera driver memleaks.
+  - A lot more, but too lazy for remembering that xD
+  
+ - Device-specific changes:
+  - Device-specific blobs and firmware from MIUI 21.6.23
+  - Added custom bootlogo on the ROM
+  - FOD/Face Unlock on 3rd party apps is fixed
+  - Using GCamGo back (again)
+  - Adjusted CPU freqs, for better idle times and saving up some juicy battery, without affecting on performance.
+  - Using Roman Yalta HMX libs from his MN10 MIUI 12.5 Camera mod, they give better color management and HDR
+  - Addressed some SELinux denials and issues
+  - Added Pixel PowerStats service
+  - Using modified QDCM color profiles, so no yellow tint on screen (Yay!)
+  - Nuked some awful logspamming (Like a part of camera ones)
+  - Latest security patch
+  
+  
