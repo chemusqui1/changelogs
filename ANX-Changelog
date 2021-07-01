@@ -1,0 +1,13 @@
+Custom MIUICamera changelog
+-------------------------------------------
+02/07/2021:
+- Initial Release
+
+-------------------------------------------
+BUGS (TAKE A LOOK HERE!!)
+ - Portrait mode on back lens is dead (After a lot of debugging, it's ANX team fault, so let's wait until they fixes that)
+ - Normal shoots with back lenses can not be succesfully processed or hang the camera (Another ANX bug, you can avoid that using Pro Mode)
+ - VLOG Mode crashes when recording
+ - Clone Mode hangs up when taking photo / recording video
+ - Short Video music pick option crashes
+ - MiMoji does not work properly caused by some SELinux denials
