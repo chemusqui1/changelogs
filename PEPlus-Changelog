@@ -19,6 +19,7 @@ Changelog
   - Included a custom ANX Camera for this phone (Please, TAKE A LOOK ONTO THE ANX BUGS)
   - Updated device blobs and firmware to MIUI-21.6.29
   - 30W Turbo Charging fixed (If it doesn't work, check if your cable is PD compatible, it has a special pin)
+  - Changed FOD icon to a yellow-ish one (According to some feedback, has better accuracy and speed)
 
 -------------------------------------------------------------------------------------------------------------------------------
 27/06/2021 [Initial PE+ public release]
