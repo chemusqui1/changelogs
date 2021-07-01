@@ -1,9 +1,32 @@
+Changelog
+02/07/2021
+- ReBorn Kernel 0.95 (Change Yor Mind!)
+  - Kernel upstreamed to 4.14.238
+  - Latest F2FS patches from upstream
+  - Now built using Clang-13
+  - Disabled vDSO for now, until I find something for fixing the build
+  - Using LLVM Polly and ThinLTO, making a little performance boost
+  - Fixed a (likely to happen) bug related to brightness after using FOD
+  - Increased 3D performance
+  - Improved memory speeds using efficient powerqueues and removing PM-QoS stuff
+  - Reduced battery consumptions and certain logspams
+  
+- ROM Changes
+  - Using latest sources
+
+- Device changes
+  - Removed Pixel PowerStats HAL and use a mock one (This makes battery settings feel happy)
+  - Included a custom ANX Camera for this phone (Please, TAKE A LOOK ONTO THE ANX BUGS)
+  - Updated device blobs and firmware to MIUI-21.6.29
+  - 30W Turbo Charging fixed (If it doesn't work, check if your cable is PD compatible, it has a special pin)
+
+-------------------------------------------------------------------------------------------------------------------------------
+27/06/2021 [Initial PE+ public release]
+
 Changes between PE and PE+:
 - Support for LiveDisplay, that means... Hello, HBM and DC Dimming!
 - Stability and performance improvements
 
-Changelog:
-27/06/2021 [Initial PE+ public release]
 - ReBorn Kernel 0.93 (Believe in what you see)
   - Kernel upstreamed to 4.14.237.
   - CAF upstream to LA.UM.9.1.r1-10500-SMxxx0.QSSI12.0 tag.
