@@ -1,4 +1,31 @@
 Changelog
+23/07/2021
+- ReBorn 1.0 (Day Of Glory)
+  - New kernel rebased on Official PE for Mi 9T one with latest Arian changes
+  - Kernel upstreamed to 4.14.240
+  - Latest patches from F2FS upstream
+  - Included FUSE optimizations for internal storage from OnePlus kernel sources
+  - vDSO enabled back
+  - Increased boot times
+  - Improved battery life
+  - Fixed fast charging drivers
+  - Upstreams from LA.UM.9.1.r1-10600-SMxxx0.0 and LE.UM.4.4.2.r1-04400-SDX55 onto kernel
+  - And a lot more...
+  
+ - ROM Changes
+   - Using latest sources
+   - July security patch
+   
+ - Device changes
+   - Fixed an issue with videocalling apps that made the camera crash after 5 minutes
+   - FOD switched to Xiaomi's TouchFeature implement (More stable on off screen usage, although is a bit slower than previous implement)
+   - Removed non functional stuff (like Mi Sound Enhancer)
+   - Using firmware and blobs from MIUI 12.5.3.0 RFDMIXM
+   - Fixed an issue with audio on calls, now the volume is a lot higher
+   - Adapted SEPolicy to make Viper4Android work with enforcing status.
+   - Trees completely switched to ArianK16A based ones
+
+-------------------------------------------------------------------------------------------------------------------------------
 02/07/2021
 - ReBorn Kernel 0.95 (Change Yor Mind!)
   - Kernel upstreamed to 4.14.238
