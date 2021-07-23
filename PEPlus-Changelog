@@ -23,7 +23,14 @@ Changelog
    - Using firmware and blobs from MIUI 12.5.3.0 RFDMIXM
    - Fixed an issue with audio on calls, now the volume is a lot higher
    - Adapted SEPolicy to make Viper4Android work with enforcing status.
-   - Trees completely switched to ArianK16A based ones
+   - Trees completely switched to ArianK16A based ones.
+   
+ - Chema inherit:
+   Dear PE and PE+ users, because an enforced device change (my father bought another phone, and he wants to leave my tucana
+   to my mother, and leave to me his Mi 10), i won't be able to build PE+ ROM so often, it hurts to me leave tucana, but it's
+   what i have. I want to say a HUGE THANK YOU to all the people who flashed, enjoyed, sent bug reports, all of you were the reason
+   I was here working on getting tucana a better phone... Maybe this isn't a goodbye, but y'know... Having another phone make
+   things complicated... Hopefully i'll continue here borrowing tucana for flashing the ROM. That's all I can say.
 
 -------------------------------------------------------------------------------------------------------------------------------
 02/07/2021
