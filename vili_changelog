@@ -1,4 +1,5 @@
 [Changelog on build 23/11/22]
+- Added OTA support
 - Kernel upstream to LA.UM.9.14.r1-20800-LAHAINA.QSSI13.0
 - Vendor updated to MIUI 13.0.20.0.SDKEUXM
 - Firmware built into ROM
